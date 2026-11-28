@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سياسة الخصوصية - تطبيق شريحتي</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 20px; line-height: 1.75; color: #0F213E; background: #F5F7FA; }
+    .card { background: #FFFFFF; border-radius: 16px; padding: 28px; border: 1px solid #E1E6EE; }
+    h1 { margin-top: 0; font-size: 26px; }
+    h2 { font-size: 18px; margin-top: 24px; }
+    .badge { display: inline-block; background: #F5C71A; color: #0F213E; padding: 4px 12px; border-radius: 999px; font-weight: 700; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <span class="badge">تطبيق شريحتي (Shareehty)</span>
+    <h1>سياسة الخصوصية</h1>
+    <p>تاريخ السريان: 28 نوفمبر 2026</p>
+
+    <h2>1. نظرة عامة</h2>
+    <p>يحترم تطبيق <strong>شريحتي</strong> خصوصيتك بالكامل. التطبيق يعمل بدون إنشاء حساب أو تسجيل دخول، ويهدف فقط لمساعدتك على حساب فاتورة الكهرباء المنزلية في مصر ومتابعة قراءات العداد.</p>
+
+    <h2>2. البيانات التي نجمعها</h2>
+    <ul>
+      <li><strong>بيانات القراءات والعداد:</strong> يتم تخزين اسم العداد وقراءات العداد محلياً على جهازك فقط (SQLite / SharedPreferences) ولا يتم إرسالها أو رفعها إلى أي خادم خارجي.</li>
+      <li><strong>تحديث الأسعار (Remote Config):</strong> يتصل التطبيق بالإنترنت فقط لجلب أحدث جدول لأسعار شرائح الكهرباء.</li>
+      <li><strong>تقارير الأعطال والتحليلات المجهولة:</strong> قد يستخدم التطبيق Firebase Crashlytics وFirebase Analytics (عند تفعيلها) لجمع بيانات تقنية مجهولة الهوية حول الأعطال وأداء التطبيق دون أي بيانات شخصية.</li>
+    </ul>
+
+    <h2>3. الأذونات المستخدمة</h2>
+    <ul>
+      <li><code>INTERNET</code> و<code>ACCESS_NETWORK_STATE</code>: لجلب تحديثات أسعار الشرائح فقط.</li>
+      <li><code>POST_NOTIFICATIONS</code> و<code>RECEIVE_BOOT_COMPLETED</code>: لإرسال تنبيهات حدود الشرائح وتذكير تسجيل القراءة الشهري محلياً على جهازك.</li>
+    </ul>
+
+    <h2>4. الإعلانات</h2>
+    <p>الإصدار الحالي (1.0.0) خالٍ تماماً من الإعلانات.</p>
+
+    <h2>5. إخلاء المسؤولية</h2>
+    <p>تطبيق <strong>شريحتي</strong> تطبيق مستقل وغير تابع لوزارة الكهرباء والطاقة المتجددة أو أي جهة حكومية أو شركة توزيع كهرباء. النتائج المعروضة تقديرية استرشادية.</p>
+
+    <h2>6. التواصل</h2>
+    <p>لأي استفسارات حول الخصوصية، يمكنك التواصل عبر صفحة التطبيق على متجر Google Play.</p>
+  </div>
+</body>
+</html>
